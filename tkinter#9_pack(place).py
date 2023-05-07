@@ -1,0 +1,10 @@
+from tkinter import*
+win=Tk()
+win.geometry("400x250")
+username=Label(win,text="username").place(x=30,y=50)
+email=Label(win,text="email").place(x=30,y=90)
+password=Label(win,text="password").place(x=30,y=130)
+a=Entry(win).place(x=90,y=50)
+b=Entry(win).place(x=90,y=90)
+c=Entry(win).place(x=90,y=130)
+win.mainloop()
